@@ -1,55 +1,72 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Portfolio landing page</title>
-      <link href="css/review.css" rel="stylesheet" type="text.css" media="all">
+      <title>My Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+      <link href="review.css" rel="stylesheet" type="text/css" media="all">
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
-
       <body>
-        <h1>Christine Tacha<h1>
-          <img src="https://veuwer.com/i/38ts.gif">
-
-        <h2>My Projects</h2>
-          <ol>
-            <li><a href="https://github.com/christinetacha/cookie-recipe/blob/master/cookie-recipe.html">This is a recipe for cookies</a></li>
-            <li><a href="https://github.com/christinetacha/catblog.git">This is a blog about an imaginary cat</a></li>
-            <li><a href="https://github.com/christinetacha/beachhouse.git">This is a page for a band</a></li>
-            <li><a href="https://github.com/christinetacha/vacation.git">This is a site for visiting Italy</a></li>
-          </ol>
-
-        <h2>Let me help you get to know me!</h2>
-          <ul>
-            <li>Education:</li>
-              <ul>
-                <li>North Medford High School: Graduated 2005</li>
-                <li>Portland Community College: Graduated, AA 2012</li>
-              </ul>
-            <li>Work Experience:</li>
-              <ul>
-                <li>I worked at Radio Cab for many years, performing different duties. However, for the past two years I have been a driver. This position has helped me develop essential life skills, such as managing my own finances, and developing intrinsic motivation. In addition to those necessary skills, it has also helped my judgment improve, from assessing risk, to driving defensively. While my time at Radio Cab has been invaluable and I enjoyed it a great deal, it's simply time to move on. Enter programming!</li>
-                <li>Before Radio Cab, I worked at various places, Starbucks and Old Navy to name a few.</li>
-              </ul>
-            <li>Skills:</li>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>Gaining karma on the internet</li>
-                <li>Making people laugh at my silliness</li>
-              </ul>
-            <li>Interests:</li>
-              <li>My family</li>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">About Me</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">My Projects</a>
+            <div class="collapse navbar-collapse">
+          <h1>Christine Tacha<h1>
+            <img src="https://veuwer.com/i/38ts.gif" alt="I'm a gif of a raccoon playing with a sprinkler">
+          <h2>My Projects</h2>
+            <ol class="lists">
+              <li><a href="https://github.com/christinetacha/cookie-recipe/blob/master/cookie-recipe.html">This is a recipe for cookies</a></li>
+              <li><a href="https://github.com/christinetacha/catblog.git">This is a blog about an imaginary cat</a></li>
+              <li><a href="https://github.com/christinetacha/beachhouse.git">This is a page for a band</a></li>
+              <li><a href="https://github.com/christinetacha/vacation.git">This is a site for visiting Italy</a></li>
+            </ol>
+          <h3>Let me help you get to know me!</h3>
+          <div class="different">
+            <ul>
+              <li><strong>Education:</strong></li>
                 <ul>
-                  <li>My partner in crime, Jim</li>
-                  <li>My extended family and my sister</li>
-                  <li>My dog, Barney</li>
+                  <li>North Medford High School: Graduated 2005</li>
+                  <li>Portland Community College: Graduated, AA 2012</li>
                 </ul>
-              <li>Cooking</li>
+              <li><strong>Work Experience:</strong></li>
+                <ul>
+                  <li>I worked at Radio Cab for many years, performing different duties. However, for the past two years I have been a driver. Being an independent contractor has helped me develop <span class="highlight">essential life skills</span>, such as managing my own finances, and developing intrinsic motivation. In addition to those necessary skills, it has also helped my judgment improve, from assessing risk, to driving defensively. While my time at Radio Cab has been invaluable and I enjoyed it a great deal, it's simply time to move on. Enter programming!</li>
+                  <li>Before Radio Cab, I worked at various places, Starbucks and Old Navy to name a few.</li>
+                </ul>
+              <li><strong>Skills:</strong></li>
+                <ol>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Gaining karma on the internet</li>
+                  <li>Making people laugh at my silliness</li>
+                </ol>
+              <li><strong>Interests:</strong></li>
+                <li><strong>My family</strong></li>
+                  <ul>
+                    <li>My partner in crime, Jim</li>
+                    <li>My extended family and my sister</li>
+                    <li>My dog, Barney</li>
+                  </ul>
+              <li><strong>Cooking</strong></li>
                 <ul>
                   <li>Especially new recipes</li>
                   <li>The more complicated, the better</li>
                 </ul>
-              <li>Movies, books &amp; TV</li>
+              <li><strong>Movies, books &amp; TV</strong></li>
                 <ul>
                   <li>Harry Potter</li>
                   <li>Tom Robbins</li>
@@ -58,7 +75,7 @@
                   <li>House of Cards</li>
                   <li>Howl's Moving Castle</li>
                 </ul>
-          </ul>
-
+            </ul>
+          </div>
       </body>
   </html>

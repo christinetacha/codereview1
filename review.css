@@ -1,1 +1,37 @@
 
+
+.different {
+  font-style: italic;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+h1 {
+  color:purple;
+  font-family:monospace;
+  font-size: 20px:
+}
+
+h2 {
+  color:purple;
+  font-family:monospace;
+  font-size: 20px:
+}
+
+h3 {
+  color:purple;
+  font-family:monospace;
+  font-size: 20px:
+}
+
+ol {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+li {
+  font-family: monospace;
+  font-size: 15px;
+}
